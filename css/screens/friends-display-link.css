@@ -1,0 +1,16 @@
+.friends-display-link {
+    text-align: center;
+    background-color: #fafafa;
+    padding:10px;
+}
+
+.friends-display-link i {
+    opacity: 0.3;
+}
+
+.friends-display-link a {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+}
