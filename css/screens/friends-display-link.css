@@ -14,3 +14,7 @@
     color: rgba(0, 0, 0, 0.7);
     text-decoration: none;
 }
+
+.friend-screen {
+    padding: 0px var(--horizontal-space);
+}
