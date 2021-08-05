@@ -1,0 +1,37 @@
+.user-component {
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.user-component__colunm:first-child {
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+    
+}
+
+.user-component__img {
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+}
+
+.user-component__text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+.user-component__title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.user-component__subtitle {
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0.7;
+}
