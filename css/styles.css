@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
 @import "reset.css";
 @import "variables.css";
-/* components */ 
+/* components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
@@ -9,8 +9,8 @@
 /* screens*/
 @import "screens/welcome-header.css";
 @import "screens/login-form.css";
-@import "screens/friends-display-link.css";
+@import "screens/friends.css";
 
 body {
-    font-family: 'Patrick Hand', cursive;
+  font-family: "Patrick Hand", cursive;
 }
