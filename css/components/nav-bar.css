@@ -5,7 +5,7 @@
   background-color: #fafafa;
   box-sizing: border-box;
   padding: 15px 50px;
-  border-top: 1px solid rgba(121, 121, 121, 0.3);
+  border-top: var(--main-border);
 }
 
 .nav-bar__list {
