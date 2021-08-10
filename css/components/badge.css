@@ -10,3 +10,11 @@
   font-size: 13px;
   font-weight: 500;
 }
+
+.badge-xs {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: tomato;
+}
