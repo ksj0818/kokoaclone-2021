@@ -24,4 +24,5 @@
 .screen-header__notification {
   bottom: 34px;
   left: 106px;
+  position: absolute;
 }
