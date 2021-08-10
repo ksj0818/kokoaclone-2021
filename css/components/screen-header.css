@@ -4,12 +4,24 @@
   padding: var(--horizontal-space);
   display: flex;
   justify-content: space-between;
+  position: relative;
+  top: 50px;
+  margin-bottom: 20px;
 }
 .screen-header__title {
   font-size: 30px;
   font-weight: 600;
 }
 
+.screen-header__icons {
+  position: relative;
+}
+
 .screen-header__icons span {
   margin-left: 30px;
+}
+
+.screen-header__notification {
+  bottom: 34px;
+  left: 106px;
 }
