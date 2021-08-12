@@ -1,0 +1,11 @@
+.more-screen .icon-row {
+  opacity: 0.7;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.more-screen .icon-row .icon-row__icon {
+  width: 25%;
+  margin-top: 35px;
+}
