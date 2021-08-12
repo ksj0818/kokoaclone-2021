@@ -9,3 +9,44 @@
   width: 25%;
   margin-top: 35px;
 }
+
+.more-suggestions {
+  border-top: var(--main-border);
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+.more-suggenstions__title {
+  padding-bottom: 20px;
+}
+
+.more-suggenstions__icons {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.more-suggenstions__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  margin-bottom: 25px;
+}
+
+.more-suggenstions__icon i {
+  color: white;
+  background-color: var(--yellow);
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-suggenstions__icon-text {
+  color: var(--font-color-smokegray);
+  margin-top: 5px;
+}
