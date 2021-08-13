@@ -5,9 +5,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
-  top: 50px;
-  margin-bottom: 20px;
 }
 .screen-header__title {
   font-size: 30px;
