@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Settings screen</title>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <!-- status-bar -->
+        <div class="status-bar">
+            <div class="status-bar__colunm">
+                <span class="status-bar__text">No Service</span>
+                <i class="fas fa-wifi fa-lg"></i>        
+            </div>
+            <div class="status-bar__colunm">
+                <span class="status-bar__text">13:41</span>
+            </div>
+            <div class="status-bar__colunm">
+                <span class="status-bar__text">75%</span>
+                <i class="fas fa-battery-three-quarters fa-2x"></i>
+                <i class="fas fa-bolt fa-lg fa-xs"></i>
+            </div>
+        </div>
+        <!-- alt-header -->
+        <header class="alt-header">
+            <div class="alt-header__colunm">
+                <a href="javascript:history.back();">   <!-- history.go(-1); 이것도 가능-->
+                    <i class="fas fa-angle-left fa-2x"></i>
+                </a>
+            </div>
+            <div class="alt-header__colunm">
+                <h1 class="alt-header__title">Settings</h1>
+            </div>
+            <div class="alt-header__colunm">
+                <i class="fas fa-search fa-lg"></i>
+            </div>
+        </header>
+        <!-- main screen -->
+        <main class="main-screen">
+            <ul class="settings-list">
+                <li class="settings__setting">
+                    <div class="settings__setting-column">
+                        <i class="fas fa-bullhorn"></i>
+                        <span class="settings__text">Notice</span>
+                    </div>
+                    <div class="settings__setting-column"></div>
+                </li>
+                <li class="settings__setting">
+                    <div class="settings__setting-column">
+                        <i class="fas fa-flask"></i>
+                        <span class="settings__text">Kokoa Lab</span>
+                    </div>
+                    <div class="settings__setting-column"></div>
+                </li>
+                <li class="settings__setting">
+                    <div class="settings__setting-column">
+                        <i class="fas fa-info-circle"></i>
+                        <span class="settings__text">Version</span>
+                    </div>
+                    <div class="settings__setting-column">
+                        <span>Latest Version</span>
+                    </div>
+                </li>
+            </ul>
+            <ul class="functions-list">
+                <li class="functions-list__items">
+                    <div class="functions__colunm">
+                        <i class="fas fa-lock"></i>
+                        <span>Privacy</span>
+                    </div>
+                    <div class="functions__colunm"></div>
+                </li>
+                <li class="functions-list__items">
+                    <div class="functions__colunm">
+                        <i class="far fa-bell"></i>
+                        <span>Notifications</span>
+                    </div>
+                    <div class="functions__colunm"></div>
+                </li>
+                <li class="functions-list__items">
+                    <div class="functions__colunm">
+                        <i class="far fa-lightbulb"></i>
+                        <span>Display</span>
+                    </div>
+                    <div class="functions__colunm">
+                        <span>Default display</span>
+                    </div>
+                </li>
+                <li class="functions-list__items">
+                    <div class="functions__colunm">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Call</span>
+                    </div>
+                    <div class="functions__colunm"></div>
+                </li>
+            </ul>
+        </main>
+        <!-- nav-bar -->
+        <nav class="nav-bar">
+            <ul class="nav-bar__list">
+                <li class="nav-bar__btn">
+                    <a class="nav-bar__link" href="friend.html">
+                        <i class="far fa-user fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav-bar__btn">
+                    <a class="nav-bar__link" href="chats.html">
+                        <div class="nav-bar__notification badge">12</div>
+                        <i class="far fa-comment fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav-bar__btn">
+                    <a class="nav-bar__link" href="find.html">
+                        <i class="fas fa-search fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav-bar__btn">
+                    <a class="nav-bar__link" href="more.html">
+                        <div class="nav-bar__notification badge">N</div>
+                        <i class="fas fa-ellipsis-h fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <!-- fontawesome script -->
+        <script src="https://kit.fontawesome.com/457c559c3c.js" crossorigin="anonymous"></script>
+    </body>
+</html>
