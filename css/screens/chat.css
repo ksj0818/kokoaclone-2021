@@ -97,3 +97,59 @@
 .message-row--own .message__info {
   flex-direction: row-reverse;
 }
+
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+  box-sizing: border-box;
+}
+
+.reply .reply__colunm:first-child {
+  width: 10%;
+}
+.reply .reply__colunm:last-child {
+  width: 90%;
+  position: relative;
+}
+
+.reply__colunm input {
+  height: 30px;
+  width: 100%;
+  border: var(--main-border);
+  border-radius: 20px;
+  padding: 0px 10px;
+}
+
+.reply__colunm:last-child > i,
+.reply__colunm:last-child button {
+  position: absolute;
+  right: -5px;
+  top: 2px;
+}
+
+.reply__colunm:last-child > i {
+  right: 40px;
+  top: 10px;
+}
+
+.reply__colunm:last-child button {
+  background-color: var(--yellow);
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.reply i {
+  opacity: 0.5;
+}
+
+.reply__colunm button i {
+  opacity: 1;
+}
