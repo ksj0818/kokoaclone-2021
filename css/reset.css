@@ -130,6 +130,8 @@ table {
 
 input {
   border-style: none;
+  font-family: "Gamja Flower", cursive;
+  font-size: 18px;
 }
 
 input:focus {
