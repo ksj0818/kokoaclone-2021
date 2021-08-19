@@ -84,7 +84,7 @@
 .open-post__heart-count {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  padding: 5px;
+  padding: 10px;
   border-radius: 20px;
   position: absolute;
   bottom: 10px;
@@ -95,4 +95,22 @@
 
 .open-post__heart-count span {
   margin-left: 5px;
+}
+
+@keyframes heartBeat {
+  0% {
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(2);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform; /* 브라우저에게 어떤 것이 변할 것인지 말해주는것 , 브라우저가 그래픽카드를 이용해서 애니메이션을 가속화할 수 있는것*/
+  animation: heartBeat 2s linear infinite;
 }
